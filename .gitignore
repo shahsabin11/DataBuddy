@@ -1,0 +1,47 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python
+api/.venv/
+api/**/__pycache__/
+api/**/*.py[cod]
+api/.pytest_cache/
+api/.ruff_cache/
+api/.mypy_cache/
+api/*.egg-info/
+api/dist/
+api/build/
+.coverage
+htmlcov/
+
+# Node
+web/node_modules/
+web/.next/
+web/out/
+web/coverage/
+web/*.tsbuildinfo
+
+# Sandbox build artifacts
+sandbox/.e2b/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker / local data
+.minio/
+.postgres/
+api/.data/
+api/.data/outbox/
+
+# Logs
+*.log
+
+# Local preview screenshots
+docs/preview-*.png

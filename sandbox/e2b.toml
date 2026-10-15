@@ -1,0 +1,8 @@
+# E2B template definition (docs/architecture.md §3b, docs/threat-model.md).
+# Build with: e2b template build
+# Then set E2B_TEMPLATE_ID in .env to the printed template id.
+
+team_id = ""
+dockerfile = "Dockerfile"
+template_name = "databuddy-sandbox"
+start_cmd = "/bin/bash"

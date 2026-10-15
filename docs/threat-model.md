@@ -2,7 +2,7 @@
 
 This note closes the open decision: how much autonomy the code-execution sandbox gets, and how student data is isolated per run. It sits on the stack in `docs/architecture.md` and the method contract in `docs/analytics-spec.md`.
 
-`docs/collaboration-model.md` is not in the repo. The approval rules in section 6 are the sandbox half of that contract, taken from the analytics spec: the agent recommends, the student decides, and every step records who decided.
+The approval rules in section 6 are the sandbox half of [`collaboration-model.md`](collaboration-model.md): the agent recommends, the student decides, and every step records who decided.
 
 Host remains the one already chosen: a hosted sandbox (E2B or Modal), never the FastAPI process. Architecture recommends E2B Hobby. Either host can carry this policy. The gaps in section 8 are yours on both.
 

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  @apply bg-paper text-ink antialiased font-body;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse at 10% 0%, rgba(15, 110, 86, 0.12), transparent 45%),
+    radial-gradient(ellipse at 90% 10%, rgba(26, 35, 50, 0.08), transparent 40%);
+}
